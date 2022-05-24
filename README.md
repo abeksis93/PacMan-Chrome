@@ -24,4 +24,4 @@
 Created by Yonatan Abeksis and Shahar Cohen
 
 # URL
-Link: https://web-development-environments-2022.github.io/assignment2-311545487_322866070/
+Link: https://abeksis93.github.io/PacMan-Chrome/
