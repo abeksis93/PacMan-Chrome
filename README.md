@@ -1,11 +1,3 @@
-# Web Development Environments 2022 - Assignment 2
-Link: https://web-development-environments-2022.github.io/assignment2-311545487_322866070/
-
-# Personal Information
-* Name: Yonatan Abeksis, ID: 311545487, Github username: abeksis93
-
-* Name: Shahar Cohen, ID: 322866070, Github username: shahardc
-
 # PacMan: Hungry Chrome
 ## Functionality:
 
@@ -27,3 +19,9 @@ Link: https://web-development-environments-2022.github.io/assignment2-311545487_
 * Background music can be paused during the game. 
 
 * Music will be played according the result (Win\Lose\Timeup less 100 points)
+
+# Personal Information
+Created by Yonatan Abeksis and Shahar Cohen
+
+# URL
+Link: https://web-development-environments-2022.github.io/assignment2-311545487_322866070/
