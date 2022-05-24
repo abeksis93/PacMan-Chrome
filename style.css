@@ -1,0 +1,364 @@
+#signup{
+  display: 'none';
+}
+
+#login{
+  display: 'none';
+}
+
+#settings{
+  display: 'none';
+}
+
+#game-section{
+  display: 'none';
+}
+
+#welcome{
+  display: 'block';
+}
+
+@font-face {
+  font-family: "myFont";
+  src: url("./fonts/FFF_Tusj.ttf");
+}
+
+@font-face {
+  font-family: "myFont2";
+  src: url("./fonts/Days_Later.ttf");
+}
+
+body {
+    min-width: 100%; /* 800px */
+    background: #ffffff;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #fefefc, #ffffff);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #fefefc, #ffffff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+    margin:0px;
+  }
+  
+  
+  #mainMenu {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    height: 0;
+    border: 80px solid rgba(0,0,0,0);
+    border-top: 0 solid;
+    border-bottom: 100px solid rgba(1, 1, 1, .4);
+    -webkit-border-radius: 20px 20px 0 0;
+    border-radius: 20px 20px 0 0;
+    font: normal 100%/normal Arial, Helvetica, sans-serif;
+    color: rgba(0,0,0,0.7);
+    -o-text-overflow: clip;
+    text-overflow: clip;
+    -webkit-transform: rotateX(180deg);
+    transform: rotateX(180deg);
+    margin-top:-53px;
+    width: 550px;
+    padding: 0;
+    /* position: relative; */
+    transition: all 0.7s ease;
+    /* padding-left:7%; */
+  }
+  
+  #mainMenu a {
+   -webkit-transform: rotateX(180deg);
+    transform: rotateX(180deg);
+  }
+  
+  
+  #mainMenu:hover .sub-home{
+    justify-content: center;
+    margin-top: 53px;
+  }
+  
+  .navbar {
+    position: relative;
+    top: 0;
+    display:flex;
+    overflow:hidden;
+    justify-content: center;
+  }
+  
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 25px;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    transition: all 0.5s ease;
+  }
+  
+  
+  
+  .navbar a:hover {
+    background:#f9f5f5db;
+    color: black;
+    border-radius:5px;
+  }
+  
+  section  {
+    /* margin:0em 10em 10em 10em; */
+    margin: auto;
+    padding:3em 5em 3em 5em;
+  }
+
+  section.hidden
+  {
+    display: none
+  }
+
+  #menu-class{
+    overflow: hidden;
+  }
+
+  h1{
+    color: rgba(65, 65, 65); 
+    background: black;
+    /* background: linear-gradient(90deg, red, red, yellow, yellow, rgb(10, 84, 212), rgb(10, 84, 212),  green, green); */
+    /* background: linear-gradient(90deg, rgb(59, 59, 59),  rgb(14, 15, 0)); */
+    background-clip: text;
+    -webkit-background-clip: text;
+    /* font-family: 'Destroy', sans-serif;'Helvetica Neue', sans-serif;  */
+    font-family: 'myFont', sans-serif;
+    /* font-family: Verdana, sans-serif; */
+    /* font-family: 'Helvetica Neue', sans-serif; */
+    /* font-family: 'Comic Sans MS', 'Comic Sans', 'cursive'; */
+    font-size: 60px; 
+    font-weight: bold; 
+    letter-spacing: -1px; 
+    text-align: center;
+    padding: 0;
+    margin: 0;
+  }
+
+  h1:hover{
+    color: transparent;
+    transition: 500ms ease;
+  }
+
+  p {
+    color: rgb(67, 67, 67); 
+    background: rgb(47, 47, 47);
+    background-clip: text;
+    -webkit-background-clip: text;
+    /* font-family: Verdana, sans-serif; */
+    /* font-family: 'Comic Sans MS', 'Comic Sans', 'cursive'; */
+    /* font-family: 'Calibri', sans-serif;  */
+    font-family: 'myFont', sans-serif;
+    font-size: 28px; 
+    line-height: 1.5;
+    align-items:center;
+    text-align:center;
+    font-weight:bold;
+  }
+
+  h2 {
+    color: rgb(69, 69, 69); 
+    /* font-family: 'Destroy', sans-serif; */
+    font-family: 'myFont2', sans-serif;
+    font-size: 35px; 
+    line-height: 1.5;
+    align-items:center;
+    text-align:center;
+    font-weight:bold;
+  }
+
+  h3{
+    color: rgba(65, 65, 65); 
+    /* background: black; */
+    /* background: linear-gradient(90deg, red, red, yellow, yellow, rgb(10, 84, 212), rgb(10, 84, 212),  green, green); */
+    background: linear-gradient(90deg, rgb(192, 192, 192),  rgb(36, 36, 36));
+    background-clip: text;
+    -webkit-background-clip: text;
+    font-family: 'myFont2', sans-serif;/* 'Helvetica Neue', sans-serif; */ 
+    font-size: 45px; 
+    font-weight: bold; 
+    letter-spacing: -1px; 
+    text-align: center;
+    padding: 0;
+    margin: 0;
+  }
+
+  h4 {
+    color: rgb(69, 69, 69); 
+    font-family: 'myFont2', sans-serif;
+    font-size: 25px; 
+    line-height: 1.5;
+    align-items:left;
+    text-align:left;
+    font-weight:bold;
+  }
+/* 
+  #arrow-img {
+    width: 55px;
+    height: 63px;
+  } */
+
+  #footer{
+    position: fixed;
+    background-color: #e6e6e690;
+    font-size: 15px;
+    width: 100%;
+    color: rgba(81, 81, 81, 0.808);
+    text-align: center;
+    bottom: 0;
+  }
+
+  #footer:hover{
+    background-color: #e6e6e6dd;
+    color: rgb(54, 54, 54);
+  }
+
+  #footer-text{
+    font-family: 'Helvetica Neue', sans-serif; 
+    font-size: 15px; 
+    font-weight: bold; 
+    letter-spacing: -0.5px; 
+    padding: 0;
+    padding-bottom: 15px;
+    margin: 0;
+    position: relative;
+    text-align: center;
+    margin-bottom: 0px;
+  }
+
+  #game {
+    background-color: rgb(95, 95, 95);
+    width: 600px;
+    height: 600px;
+    margin: auto;
+  }
+  /* .button {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  .button1 {
+    background-color: #4CAF50;
+  }
+
+  .button2 {
+    background-color: #008CBA;
+  }
+  */
+
+  .vertical-center {
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    justify-content: space-around;
+    align-items:center;
+    text-align:center;
+    min-height: 30vh;
+    /* padding: 14px 25px; */
+  }
+  
+  .btns {
+    justify-content:center;
+    align-items:center;
+    position: relative;
+	-moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ededed), color-stop(1, #dfdfdf) );
+	background:-moz-linear-gradient( center top, #ededed 5%, #dfdfdf 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ededed', endColorstr='#dfdfdf');
+	background-color:#ededed;
+	-webkit-border-top-left-radius:20px;
+	-moz-border-radius-topleft:20px;
+	border-top-left-radius:20px;
+	-webkit-border-top-right-radius:20px;
+	-moz-border-radius-topright:20px;
+	border-top-right-radius:20px;
+	-webkit-border-bottom-right-radius:20px;
+	-moz-border-radius-bottomright:20px;
+	border-bottom-right-radius:20px;
+	-webkit-border-bottom-left-radius:20px;
+	-moz-border-radius-bottomleft:20px;
+	border-bottom-left-radius:20px;
+    text-indent:0;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	color:#777777;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	font-style:normal;
+    height:35px;
+	line-height:25px;
+    width:125px;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:1px 1px 0px #ffffff;
+
+}.btns:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #dfdfdf), color-stop(1, #ededed) );
+	background:-moz-linear-gradient( center top, #dfdfdf 5%, #ededed 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#dfdfdf', endColorstr='#ededed');
+	background-color:#dfdfdf;
+    cursor: pointer;
+
+}.btns:active {
+	position:relative;
+	top:1px;
+}
+
+  hr {
+    background-color: #000;
+  }
+  
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content/Box */
+  .modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  #header-img{
+    height: auto;
+    width: auto;
+  }
+
