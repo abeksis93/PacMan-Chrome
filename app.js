@@ -473,6 +473,7 @@ function PacmanMeetGhost(){
     }
     else{
         Draw();
+        pacmanMouthChange();
         lblScore.value = score;
         Stop();
         if(!song.paused){
@@ -1041,7 +1042,7 @@ function UpdatePosition() {
     
     
 	if (food_left_dynamic<=0) {
-        pacmanMouthChange();
+        
 	    Draw();
 	    lblScore.value = score;
         Stop();
@@ -1056,12 +1057,13 @@ function UpdatePosition() {
             newGameHandler();
         },200);        
 	} else {
-        pacmanMouthChange();
+        // pacmanMouthChange();
 		Draw();
 	}
+    pacmanMouthChange();
 }
 
-function pacmanMouthChange(){
+async function pacmanMouthChange(){
 	if (pacmanMouthOpen == true){
         pacmanMouthRight.src = pacmanMouthIconRightClosed.src;
         pacmanMouthDown.src = pacmanMouthIconDownClosed.src;
